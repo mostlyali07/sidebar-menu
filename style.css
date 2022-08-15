@@ -79,3 +79,13 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 195px;
 }
+
+#check:checked ~ section{
+    margin-left: 250px;
+}
+
+section{
+    background-color: rgb(211, 211, 211);
+    height: 100vh;
+    transition: all .5s;
+}
