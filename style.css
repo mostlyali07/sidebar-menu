@@ -80,11 +80,11 @@ label #cancel{
     left: 195px;
 }
 
-#check:checked ~ section{
+#check:checked ~ .hav{
     margin-left: 250px;
 }
 
-section{
+.hav{
     background-color: rgb(211, 211, 211);
     height: 100vh;
     transition: all .5s;
